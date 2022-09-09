@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="hu">
+
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Validate</title>
+  </head>
+
+  <body>
+    <script type="module">
+      import validate from './js/validate.js';
+
+      const visaCardNumber = '4234567890123456';
+      const IPAddress = '127.0.0.1';
+      const MACAddress = '00-14-22-01-23-45';
+
+      console.log(validate(visaCardNumber, 'visa'));
+      console.log(validate(IPAddress, 'ip'));
+      console.log(validate(MACAddress, 'mac'));
+    </script>
+  </body>
+
+</html>
