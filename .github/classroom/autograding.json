@@ -1,0 +1,14 @@
+{
+  "tests": [
+    {
+      "name": "test01",
+      "setup": "npm install",
+      "run": " npm run test ./11-regex",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 26
+    }
+  ]
+}
